@@ -1,9 +1,16 @@
 import { Component } from '@angular/core';
-
+import { TV } from './tv/tv';
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+
+
+  `,
+  styles: [`
+  
+
+
+  `]
 })
 export class AppComponent {
   title = 'Lab3';
